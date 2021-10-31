@@ -15,6 +15,8 @@ const CartAdded = () => {
             .then(res => res.json())
             .then( data => setServiceAdded(data))
     }, []);
+
+    
     
     return (
         <div>

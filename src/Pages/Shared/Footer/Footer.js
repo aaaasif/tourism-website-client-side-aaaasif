@@ -1,56 +1,77 @@
 import React from 'react';
 import "./Footer.css"
+import { Col, Container, Row } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope, faPhone, faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
     return (
-      <div>
-        <div className="footer-container mt-5">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-5">
-                <div className="left-container text-start">
-                  <h1> MediLab</h1>
-                  <div className="icons-container d-flex text-center ">
-                  </div>
-                  <p className="mt-4 ">
-                    <small>
-                      *These statements have not been evaluated by the Food and
-                      Drug Administration. These products are not intended to
-                      diagnose.
-                    </small>
-                  </p>
-  
-                  <p className="mt-5">
-                    <small>All rights reserved by @aaasif </small>
-                  </p>
-                </div>
+      <div className="text-white">
+      <div className="py-4 gradient">
+        <Container>
+          <Row>
+            <Col md={6}>
+              <div className="text-center my-2">
+                <img width="120px" src="https://i.ibb.co/kHNPR01/logo.png" alt="" />
               </div>
-              <div className="col-md-2">
-                <div className="footer-menu-container">
-                  <ul>
-                    <li className="footer-menu">Home</li>
-                    <li className="footer-menu">Doctors</li>
-                    <li className="footer-menu">Contact us</li>
-                    <li className="footer-menu"> Booking</li>
-                    <li className="footer-menu"> About us</li>
-                  </ul>
-                </div>
+
+              <ul className="list-unstyled">
+                <li>
+                  <FontAwesomeIcon icon={faMapMarkerAlt} />
+                  <span className="ms-1 fs-5">Gournadi,Barishal,Bangladesh</span>
+                </li>
+                <li>
+                  <FontAwesomeIcon icon={faEnvelope} />
+                  <span className="ms-1 fs-5">
+                    Official: alexasif4@gmail.com
+                  </span>
+                </li>
+                <li>
+                  <FontAwesomeIcon icon={faPhone} />
+                  <span className="ms-1 fs-5">
+                    Helpline: 01798626997(Available:10:00AM to 10.00PM)
+                  </span>
+                </li>
+              </ul>
+            </Col>
+            <Col md={2}>
+              <ul className="list-unstyled footer-link">
+                <li>
+                  <NavLink to="/home">Home</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/about">About us</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/contact">Contact us</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/cartadded">Cart</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/policy">Policy</NavLink>
+                </li>
+              </ul>
+            </Col>
+            <Col md={4}>
+              <div className="">
+                <img
+                  className="img-fluid"
+                  src="https://i.ibb.co/C812P6f/payment.png"
+                  alt="payment methods"
+                />
               </div>
-              <div className="col-md-5">
-                <div className="right-footer-container">
-                  <h3>Sign up for the newsletter</h3>
-                  <div className="input-group mb-3 m-5">
-                      <input type="text" className="form-control" placeholder="EnterYour Email" aria-label="Recipient's username" aria-describedby="basic-addon2"/>
-                    <div className="input-group-append">
-                      <button className="common-button m-3" type="button">Send Email</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+            </Col>
+          </Row>
+        </Container>
       </div>
+      <hr className="m-0 p-0" />
+      <p className="text-center m-0 py-3 copyright">
+        Copyright © All Reserved by Tourism Community in
+        2021
+      </p>
+    </div>
     );
   };
 

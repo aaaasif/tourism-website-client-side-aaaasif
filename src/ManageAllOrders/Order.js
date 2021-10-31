@@ -1,29 +1,29 @@
 import React from 'react';
 
-const Order = ({order}) => {
+const Order = ({order, allOrder, handleDeleteUser}) => {
     const { serviceInfo, customerInfo } = order;
     const { name, img3, stay, location, rating, price} = serviceInfo;
     const { email } = customerInfo;
-    console.log(order);
+    console.log(serviceInfo);
 
      // DELETE AN USER
-     const handleDeleteUser = id => {
-        const proceed = window.confirm('Are you sure, you want to delete?');
-        if (proceed) {
-            const url = `http://localhost:5000/details/${id}`;
-            fetch(url, {
-                method: 'DELETE'
-            })
-                .then(res => res.json())
-                .then(data => {
-                    if (data.deletedCount > 0) {
-                        alert('deleted successfully');
-                        const remainingDetails = serviceInfo.filter(order => order._id !== id);
-                        order(remainingDetails);
-                    }
-                });
-        }
-    }
+    //  const handleDeleteUser = id => {
+    //     const proceed = window.confirm('Are you sure, you want to delete?');
+    //     if (proceed) {
+    //         const url = `http://localhost:5000/details/${id}`;
+    //         fetch(url, {
+    //             method: 'DELETE'
+    //         })
+    //             .then(res => res.json())
+    //             .then(data => {
+    //                 if (data.deletedCount > 0) {
+    //                     alert('deleted successfully');
+    //                     const remainingDetails = allOrder.filter(order => order._id !== id);
+                        
+    //                 }
+    //             });
+    //     }
+    // }
 
 
     return (
