@@ -11,7 +11,7 @@ const CartAdded = () => {
     console.log(myOrder);
     
     useEffect(() => {
-        fetch('http://localhost:5000/details')
+        fetch('https://gory-alien-15205.herokuapp.com/details')
             .then(res => res.json())
             .then( data => setServiceAdded(data))
     }, []);

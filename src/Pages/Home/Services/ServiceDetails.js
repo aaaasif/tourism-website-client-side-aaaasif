@@ -16,7 +16,7 @@ const ServiceDetails = () => {
             serviceInfo: serviceDetails,
             customerInfo: data
         };
-        axios.post('http://localhost:5000/details', allData)
+        axios.post('https://gory-alien-15205.herokuapp.com/details', allData)
             .then (res => {
                 if (res.data.insertedId){
                     alert('We recive Your Information.');
@@ -26,7 +26,7 @@ const ServiceDetails = () => {
     }
 
     useEffect (() =>{
-        fetch(`http://localhost:5000/services/${id}`)
+        fetch(`https://gory-alien-15205.herokuapp.com/services/${id}`)
         .then(res=>res.json())
         .then(data=> {
             setServiceDetails(data)

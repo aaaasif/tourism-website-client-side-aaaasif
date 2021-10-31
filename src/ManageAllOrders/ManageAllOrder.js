@@ -7,7 +7,7 @@ const ManageAllOrder = () => {
    
 
     useEffect(() => {
-        fetch('http://localhost:5000/details')
+        fetch('https://gory-alien-15205.herokuapp.com/details')
             .then(res => res.json())
             .then(data => {
                 console.log(data)
