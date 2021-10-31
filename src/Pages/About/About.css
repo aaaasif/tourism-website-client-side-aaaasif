@@ -1,0 +1,36 @@
+
+.aboutUs-main {
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    margin: 0px;
+}
+.about-title {
+    font-size: 75px;
+}
+.aboutUs {
+    text-align: left;
+}
+.aboutUs p {
+    font-size: 20px;
+}
+.about-img {
+    border-radius: 20px;
+}
+.aboutUs2 {
+    text-align: left;
+    font-size: 18px;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    margin: 0px;
+}
+.aboutUs2 h4 {
+    font-weight: 700;
+}
+/* privacy */
+.privacyMain {
+    background-color: #F5F5F5;
+    border-radius: 20px;
+}
+.privacy {
+    max-width: 90%;
+}

@@ -1,0 +1,17 @@
+.home{
+    background-color: #F5F5F5;
+}
+.common-button{
+    background-color: #32a86f;
+    padding: 5px 30px;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: 0.4s;
+    border: none;
+    margin: 2px solid #16A085;
+}
+.common-button:hover {
+    background-color: #16A085;
+    color: white;
+    transform: scale(1.05);
+}

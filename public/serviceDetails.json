@@ -1,0 +1,94 @@
+{
+    "service": [
+      {
+        "name": "Royal Tulip Beach Resort & Spa",
+        "location": {
+          "city": "Cox’s Bazar,Bangladesh"
+        },
+        "email": "royaltulip@example.com",
+        "phone": "011-962-7516",
+        "id": "1",
+        "picture": {
+            "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/99/54/30/swimming-pool.jpg?w=900&h=-1&s=1",
+            "img2":"https://lh3.googleusercontent.com/proxy/-V_-2wnBcxZ4gsfKeZpJQwDRIvXafQHI0vewx40spQtBo_BoxSohYxY3gJ7j6zs_aNPMRVJMoYwpP1gVpdQ",
+            "img3":"https://tripzip.tours/storage/hotel/sliders/royal_tulip_01-1mBFOoApIj.jpeg",
+          "description":"The travel-related words below are the most important terms to know when talking about travel or taking vacations. Words are categorized into different sections depending on the type of travel. You'll find example sentences for each word to help provide context for learning, as well as a short quiz at the end to test your knowledge."
+        }
+      },
+      {
+        "name": "Grand Sultan Tea Resort & Golf – K/Q Deluxe",
+        "location": {
+          "city": "Srimongol"
+        },
+        "email": "grandsultan@example.com",
+        "phone": "011-962-7516",
+        "id":"2",
+        "picture": {
+            "img":"https://scontent.fdac127-1.fna.fbcdn.net/v/t1.6435-9/p640x640/101113524_3106192582781616_6460221809273864192_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=e3f864&_nc_eui2=AeFRN7jPn5IYjd6Yu4l4UlG3jdVMizdHOduN1UyLN0c52yvlyR09O7lNbzJ9jcxgmrr6Uf4mjRracyqpxc89jHp7&_nc_ohc=4Am6mfQ6Qs4AX8bM5TD&_nc_ht=scontent.fdac127-1.fna&oh=567988b2e532207e14fdd06b3733b5f5&oe=61A080BE",
+        "img2":"https://english.thesunrisetoday.com/wp-content/uploads/2013/12/Sultan.jpg",
+        "img3":"https://english.thesunrisetoday.com/wp-content/uploads/2013/12/Sultan.jpg",
+          "description":"The travel-related words below are the most important terms to know when talking about travel or taking vacations. Words are categorized into different sections depending on the type of travel. You'll find example sentences for each word to help provide context for learning, as well as a short quiz at the end to test your knowledge."
+        }
+      },
+      {
+        "name": "Sayeman Beach Resort with Air ticket",
+        "location": {
+          "city": "Cox’s Bazar,Bangladesh"
+        },
+        "email": "sayemanbeach@example.com",
+        "phone": "011-962-7516",
+        "id":"3",
+        "picture": {
+            "img":"https://media-cdn.tripadvisor.com/media/photo-s/1c/83/8f/6f/sayeman-beach-resort.jpg",
+        "img2":"https://sayemanresort.com/wp-content/uploads/2019/10/image1-27.jpg",
+        "img3":"https://www.bdstall.com/asset/product-image/giant_66781.jpg",
+          "description":"The travel-related words below are the most important terms to know when talking about travel or taking vacations. Words are categorized into different sections depending on the type of travel. You'll find example sentences for each word to help provide context for learning, as well as a short quiz at the end to test your knowledge."
+        }
+      },
+      {
+        "name": "Pan Pacific Sonargaon Dhaka",
+        "location": {
+          "city": "Cox’s Bazar,Bangladesh"
+        },
+        "email": "panpacific@example.com",
+        "phone": "011-962-7516",
+        "id":"4",
+        "picture": {
+            "img":"https://scontent.fdac127-1.fna.fbcdn.net/v/t1.6435-9/188486880_2258923754239828_1198302933911886091_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeFQ6COoujpZrd3EqP9Hq-sWISnn4BUqp6khKefgFSqnqQKKIH0RrP4MtPJ5vDjDX4hajXwxoSUa2f0_DreoeU2E&_nc_ohc=Urs1qTC73nAAX-8MFhH&_nc_ht=scontent.fdac127-1.fna&oh=43b90822bc5a5b2bc4f1e6dae4f823b6&oe=619FD790",
+        "img2":"https://pix10.agoda.net/hotelImages/276/276118/276118_16031013530040651184.jpg?s=1024x768",
+        "img3":"https://cf.bstatic.com/xdata/images/hotel/max1280x900/92583733.jpg?k=f3c24f18283ca132bf9069bd15169a65619c8e334abb7fe40083bedd06215cdd&o=&hp=1",
+          "description":"The travel-related words below are the most important terms to know when talking about travel or taking vacations. Words are categorized into different sections depending on the type of travel. You'll find example sentences for each word to help provide context for learning, as well as a short quiz at the end to test your knowledge."
+        }
+      },
+      {
+        "name": "Divine Eco Resort",
+        "location": {
+          "city": "Cox’s Bazar,Bangladesh"
+        },
+        "email": "divineeco@example.com",
+        "phone": "011-962-7516",
+        "id":"5",
+        "picture": {
+            "img":"https://cdn.ostrovok.ru/t/640x400/content/34/c4/34c47631d9523bd1dde1eb8e7b28ddc75f3bc70e.jpeg",
+        "img2":"https://pix10.agoda.net/hotelImages/583/5830881/5830881_18092801450068215058.jpg?s=1024x768",
+        "img3":"https://pix10.agoda.net/hotelImages/583/5830881/5830881_18092802430068215300.jpg?s=1024x768",
+          "description":"The travel-related words below are the most important terms to know when talking about travel or taking vacations. Words are categorized into different sections depending on the type of travel. You'll find example sentences for each word to help provide context for learning, as well as a short quiz at the end to test your knowledge."
+        }
+      },
+      {
+        "name": "sarah resort gazipur",
+        "location": {
+          "city": "Cox’s Bazar,Bangladesh"
+        },
+        "email": "sarahresort@example.com",
+        "phone": "011-962-7516",
+        "id":"6",
+        "picture": {
+            "img":"https://www.sarahresort.com/wp-content/uploads/2019/02/premium-villa-thumb-2.jpg",
+        "img2":"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/45/d4/99/sarah-resort.jpg?w=900&h=-1&s=1",
+        "img3":"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/4c/76/d2/simplex-cottage.jpg?w=900&h=-1&s=1",
+          "description":"The travel-related words below are the most important terms to know when talking about travel or taking vacations. Words are categorized into different sections depending on the type of travel. You'll find example sentences for each word to help provide context for learning, as well as a short quiz at the end to test your knowledge."
+        }
+      }
+    ]
+  }

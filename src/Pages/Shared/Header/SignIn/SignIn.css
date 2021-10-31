@@ -1,0 +1,57 @@
+.signinBody {
+    min-height: 100vh;
+}
+.signin-main {
+    background-color:#DEF7E5;
+    min-height: 500px;
+    max-width: 400px;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+.login-title {
+    color: #16A085;
+}
+.button {
+    border: none;
+    background-color: rgb(243, 101, 101);
+    padding: 5px 30px;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: 0.4s;
+}
+.button:hover {
+    background-color: rgb(153, 37, 37);
+    color: white;
+    transform: scale(1.05);
+}
+.input-field {
+    border: none;
+    background-color: white;
+    padding-left: 5px;
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+    margin: 10px;
+}
+.toggle {
+    text-decoration: none;
+    color: #16A085;
+    font-weight: 700;
+}
+.login-image{
+    height: 600px;
+    max-width: 600px;
+}
+@media only screen and (max-width: 480px) {
+  .signin-main {
+        width: 90%;
+    }
+    .input-field {
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .login-image {
+      display: none;
+    }
+  }
