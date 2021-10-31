@@ -25,10 +25,19 @@ const Header = () => {
                         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                             <div className="navbar-nav">
                                 <Link className="nav-link fw-bold" to="/home">Home</Link>
-                                <Link className="nav-link fw-bold" to="/addservice">Add Your Own Service</Link>
-                                <Link className="nav-link fw-bold" to="/Booking">Booking</Link>
-                                <Link className="nav-link fw-bold" to="/finddoctors">Doctors</Link>
-                                <Link className="nav-link fw-bold" to="/about">About Us</Link>
+                                {user.email &&
+                                    <Link className="nav-link fw-bold" to="/addservice">Add Your Own Service</Link>
+                                }
+                                {user.email &&
+                                    <Link className="nav-link fw-bold" to="/cartadded">Cart</Link>
+                                }
+                                {user.email &&
+                                    <Link className="nav-link fw-bold" to="/allorder">All Orders</Link>
+                                }
+                                {user.email &&
+                                    <Link className="nav-link fw-bold" to="/about">About Us</Link>
+                                }
+
                             </div>
                         </div>
                     </div>
