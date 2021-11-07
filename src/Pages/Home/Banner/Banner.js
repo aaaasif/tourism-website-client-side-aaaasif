@@ -22,22 +22,21 @@ const Banner = () => {
               >
                 <div className="text-center my-5 py-5">
                   <Bounce left cascade>
-                    <h1 className="text-white">Learn to be creative</h1>
+                    <h1 className="text-dark">Travel Words that Describe Wanderlust Perfectly</h1>
                   </Bounce>
         
                   <Bounce right cascade>
-                    <p className="my-4 text-white fs-5">
-                      Learn exciting technologies from web development, design, game
-                      development and more!
+                    <p className="my-4 text-white fs-5 font-weight-bold">
+                    “Travel is the only thing you buy that makes you richer”
                     </p>
                   </Bounce>
         
                   <Bounce>
                     <NavLink
-                      to="/courses"
+                      to="/about"
                       className="rounded-pill btn btn-primary fs-5 py-2 px-4"
                     >
-                      View Courses
+                      About Us
                     </NavLink>
                   </Bounce>
                 </div>

@@ -13,7 +13,7 @@ const Footer = () => {
           <Row>
             <Col md={6}>
               <div className="text-center my-2">
-                <img width="120px" src="https://i.ibb.co/kHNPR01/logo.png" alt="" />
+                <img width="120px" src="https://i.ibb.co/jv6YTmP/30-301819-tourist-travel-icon-png.jpg" alt="" />
               </div>
 
               <ul className="list-unstyled">

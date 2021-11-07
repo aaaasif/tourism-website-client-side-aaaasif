@@ -23,9 +23,11 @@ const AddServices = () => {
         <form onSubmit={handleSubmit(onSubmit)}>
             <input {...register("name", {required: true, maxLength:20})} placeholder="name"></input>
             <input {...register("location")} placeholder="location" ></input>
+            <input {...register("stay")} placeholder="stay..." ></input>
+            <input {...register("rating")} placeholder="rating" ></input>
             <input type="number" {...register("price")} placeholder="price"></input>
             <input {...register("img")} placeholder="input your img URL"></input>
-            <input type="submit"></input>
+            <button type="submit" className='common-button mb-5 mt-3'>Add A New Plan</button>
         </form>
         </div>
     );

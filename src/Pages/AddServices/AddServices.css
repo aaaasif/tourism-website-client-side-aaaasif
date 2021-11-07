@@ -5,6 +5,18 @@
     align-items: center;
 }
 .add-service form input{
-    width: 60%;
+    width: 90%;
     margin: 10px;
+    border: 1px solid #16A085;
+}
+.cart-body{
+    width: 90% ;
+    border-bottom: 1px solid gray;
+}
+.cart-img{
+    height: 300px;
+    width: 500px;
+}
+.status{
+    color: red;
 }

@@ -13,18 +13,14 @@ const Service = ({ service }) => {
     return (
         <div className="col">
             <Bounce right cascade>
-            <div className="card h-100">
-                <img src={img} className="service-img card-img-top" alt="..." />
-                <div class ="card-body">
-                    <h5 className="card-title"> {name}</h5>
+            <div className="card h-100 service-cad">
+                <img src={img} className="service-img card-img-top img-hover-zoom " alt="..." />
+                <div className ="card-body">
+                    <h5 className="card-title card-name"> {name}</h5>
                     <div>
-                    <p className="card-text">{place} {location}</p>
-                    <p className="card-text">{price}</p>
-                    <p className="card-text">{rating} {ratingicon}</p>
-                    </div>
-                    <div>
-                    {/* <p className="card-text">Room Category{Room Category}</p> */}
-                    <p className="card-text">{rating} {ratingicon}</p>
+                    <p className="card-text">Location: <span className="font-weight-bold">{place}</span>  {location}</p>
+                    <p className="card-text">Price: <span  className="font-weight-bold">{price}</span> </p>
+                    <p className="card-text "><span  className="font-weight-bold">{rating}</span> <span className='card-rating'>{ratingicon}</span> </p>
                     </div>
                     <NavLink to={`/service/${_id}`}>
                     <button className=" common-button mb-2 m-2"
